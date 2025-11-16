@@ -32,7 +32,7 @@ async function addRecord(fields) {
         if (emailExists) {
             return {
                 success: false,
-                message: "Email already exists."
+                message: "Email already exists"
             }
         }
 
